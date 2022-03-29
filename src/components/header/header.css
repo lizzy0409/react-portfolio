@@ -1,5 +1,6 @@
 header {
     height: 110vh;
+    /* height: auto; */
     padding-top: 7rem;
     overflow: hidden;
 }
@@ -66,7 +67,8 @@ header {
 /* ====================MEDIA QUERIS (SMALL DEVUCES ) ================ */
 @media screen and (max-width: 600px) {
     header {
-        height: 100vh;
+        height: 150vh;
+        margin-bottom: 0;
     }
     .header__socials,
     .scroll__down {
