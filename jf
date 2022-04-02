@@ -1,0 +1,428 @@
+warning: LF will be replaced by CRLF in package-lock.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory
+[1mdiff --git a/package-lock.json b/package-lock.json[m
+[1mindex 51b41dc..78cd0a1 100644[m
+[1m--- a/package-lock.json[m
+[1m+++ b/package-lock.json[m
+[36m@@ -13,6 +13,7 @@[m
+         "@testing-library/user-event": "^13.5.0",[m
+         "react": "^17.0.2",[m
+         "react-dom": "^17.0.2",[m
+[32m+[m[32m        "react-icons": "^4.3.1",[m
+         "react-scripts": "5.0.0",[m
+         "web-vitals": "^2.1.4"[m
+       }[m
+[36m@@ -13228,6 +13229,14 @@[m
+       "resolved": "https://registry.npmjs.org/react-error-overlay/-/react-error-overlay-6.0.10.tgz",[m
+       "integrity": "sha512-mKR90fX7Pm5seCOfz8q9F+66VCc1PGsWSBxKbITjfKVQHMNF2zudxHnMdJiB1fRCb+XsbQV9sO9DCkgsMQgBIA=="[m
+     },[m
+[32m+[m[32m    "node_modules/react-icons": {[m
+[32m+[m[32m      "version": "4.3.1",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/react-icons/-/react-icons-4.3.1.tgz",[m
+[32m+[m[32m      "integrity": "sha512-cB10MXLTs3gVuXimblAdI71jrJx8njrJZmNMEMC+sQu5B/BIOmlsAjskdqpn81y8UBVEGuHODd7/ci5DvoSzTQ==",[m
+[32m+[m[32m      "peerDependencies": {[m
+[32m+[m[32m        "react": "*"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+     "node_modules/react-is": {[m
+       "version": "17.0.2",[m
+       "resolved": "https://registry.npmjs.org/react-is/-/react-is-17.0.2.tgz",[m
+[36m@@ -25444,6 +25453,12 @@[m
+       "resolved": "https://registry.npmjs.org/react-error-overlay/-/react-error-overlay-6.0.10.tgz",[m
+       "integrity": "sha512-mKR90fX7Pm5seCOfz8q9F+66VCc1PGsWSBxKbITjfKVQHMNF2zudxHnMdJiB1fRCb+XsbQV9sO9DCkgsMQgBIA=="[m
+     },[m
+[32m+[m[32m    "react-icons": {[m
+[32m+[m[32m      "version": "4.3.1",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/react-icons/-/react-icons-4.3.1.tgz",[m
+[32m+[m[32m      "integrity": "sha512-cB10MXLTs3gVuXimblAdI71jrJx8njrJZmNMEMC+sQu5B/BIOmlsAjskdqpn81y8UBVEGuHODd7/ci5DvoSzTQ==",[m
+[32m+[m[32m      "requires": {}[m
+[32m+[m[32m    },[m
+     "react-is": {[m
+       "version": "17.0.2",[m
+       "resolved": "https://registry.npmjs.org/react-is/-/react-is-17.0.2.tgz",[m
+[1mdiff --git a/package.json b/package.json[m
+[1mindex 2bc29c0..d0d8a72 100644[m
+[1m--- a/package.json[m
+[1m+++ b/package.json[m
+[36m@@ -8,6 +8,7 @@[m
+     "@testing-library/user-event": "^13.5.0",[m
+     "react": "^17.0.2",[m
+     "react-dom": "^17.0.2",[m
+[32m+[m[32m    "react-icons": "^4.3.1",[m
+     "react-scripts": "5.0.0",[m
+     "web-vitals": "^2.1.4"[m
+   },[m
+[1mdiff --git a/public/favicon.ico b/public/favicon.ico[m
+[1mdeleted file mode 100644[m
+[1mindex a11777c..0000000[m
+Binary files a/public/favicon.ico and /dev/null differ
+[1mdiff --git a/public/index.html b/public/index.html[m
+[1mindex aa069f2..a101c17 100644[m
+[1m--- a/public/index.html[m
+[1m+++ b/public/index.html[m
+[36m@@ -1,43 +1,12 @@[m
+ <!DOCTYPE html>[m
+ <html lang="en">[m
+[31m-  <head>[m
+[31m-    <meta charset="utf-8" />[m
+[31m-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />[m
+[31m-    <meta name="viewport" content="width=device-width, initial-scale=1" />[m
+[31m-    <meta name="theme-color" content="#000000" />[m
+[31m-    <meta[m
+[31m-      name="description"[m
+[31m-      content="Web site created using create-react-app"[m
+[31m-    />[m
+[31m-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />[m
+[31m-    <!--[m
+[31m-      manifest.json provides metadata used when your web app is installed on a[m
+[31m-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/[m
+[31m-    -->[m
+[31m-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />[m
+[31m-    <!--[m
+[31m-      Notice the use of %PUBLIC_URL% in the tags above.[m
+[31m-      It will be replaced with the URL of the `public` folder during the build.[m
+[31m-      Only files inside the `public` folder can be referenced from the HTML.[m
+[31m-[m
+[31m-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will[m
+[31m-      work correctly both with client-side routing and a non-root public URL.[m
+[31m-      Learn how to configure a non-root public URL by running `npm run build`.[m
+[31m-    -->[m
+[31m-    <title>React App</title>[m
+[31m-  </head>[m
+[31m-  <body>[m
+[31m-    <noscript>You need to enable JavaScript to run this app.</noscript>[m
+[31m-    <div id="root"></div>[m
+[31m-    <!--[m
+[31m-      This HTML file is a template.[m
+[31m-      If you open it directly in the browser, you will see an empty page.[m
+[31m-[m
+[31m-      You can add webfonts, meta tags, or analytics to this file.[m
+[31m-      The build step will place the bundled scripts into the <body> tag.[m
+[31m-[m
+[31m-      To begin the development, run `npm start` or `yarn start`.[m
+[31m-      To create a production bundle, use `npm run build` or `yarn build`.[m
+[31m-    -->[m
+[31m-  </body>[m
+[32m+[m[32m    <head>[m
+[32m+[m[32m        <meta charset="UTF-8" />[m
+[32m+[m[32m        <meta http-equiv="X-UA-Compatible" content="IE=edge" />[m
+[32m+[m[32m        <meta name="viewport" content="width=device-width, initial-scale=1.0" />[m
+[32m+[m[32m        <title>ENNOUKRA | Portfolio</title>[m
+[32m+[m[32m    </head>[m
+[32m+[m[32m    <body>[m
+[32m+[m[32m        <div id="root"></div>[m
+[32m+[m[32m    </body>[m
+ </html>[m
+[1mdiff --git a/public/logo192.png b/public/logo192.png[m
+[1mdeleted file mode 100644[m
+[1mindex fc44b0a..0000000[m
+Binary files a/public/logo192.png and /dev/null differ
+[1mdiff --git a/public/logo512.png b/public/logo512.png[m
+[1mdeleted file mode 100644[m
+[1mindex a4e47a6..0000000[m
+Binary files a/public/logo512.png and /dev/null differ
+[1mdiff --git a/public/manifest.json b/public/manifest.json[m
+[1mdeleted file mode 100644[m
+[1mindex 080d6c7..0000000[m
+[1m--- a/public/manifest.json[m
+[1m+++ /dev/null[m
+[36m@@ -1,25 +0,0 @@[m
+[31m-{[m
+[31m-  "short_name": "React App",[m
+[31m-  "name": "Create React App Sample",[m
+[31m-  "icons": [[m
+[31m-    {[m
+[31m-      "src": "favicon.ico",[m
+[31m-      "sizes": "64x64 32x32 24x24 16x16",[m
+[31m-      "type": "image/x-icon"[m
+[31m-    },[m
+[31m-    {[m
+[31m-      "src": "logo192.png",[m
+[31m-      "type": "image/png",[m
+[31m-      "sizes": "192x192"[m
+[31m-    },[m
+[31m-    {[m
+[31m-      "src": "logo512.png",[m
+[31m-      "type": "image/png",[m
+[31m-      "sizes": "512x512"[m
+[31m-    }[m
+[31m-  ],[m
+[31m-  "start_url": ".",[m
+[31m-  "display": "standalone",[m
+[31m-  "theme_color": "#000000",[m
+[31m-  "background_color": "#ffffff"[m
+[31m-}[m
+[1mdiff --git a/public/robots.txt b/public/robots.txt[m
+[1mdeleted file mode 100644[m
+[1mindex e9e57dc..0000000[m
+[1m--- a/public/robots.txt[m
+[1m+++ /dev/null[m
+[36m@@ -1,3 +0,0 @@[m
+[31m-# https://www.robotstxt.org/robotstxt.html[m
+[31m-User-agent: *[m
+[31m-Disallow:[m
+[1mdiff --git a/src/App.css b/src/App.css[m
+[1mdeleted file mode 100644[m
+[1mindex 74b5e05..0000000[m
+[1m--- a/src/App.css[m
+[1m+++ /dev/null[m
+[36m@@ -1,38 +0,0 @@[m
+[31m-.App {[m
+[31m-  text-align: center;[m
+[31m-}[m
+[31m-[m
+[31m-.App-logo {[m
+[31m-  height: 40vmin;[m
+[31m-  pointer-events: none;[m
+[31m-}[m
+[31m-[m
+[31m-@media (prefers-reduced-motion: no-preference) {[m
+[31m-  .App-logo {[m
+[31m-    animation: App-logo-spin infinite 20s linear;[m
+[31m-  }[m
+[31m-}[m
+[31m-[m
+[31m-.App-header {[m
+[31m-  background-color: #282c34;[m
+[31m-  min-height: 100vh;[m
+[31m-  display: flex;[m
+[31m-  flex-direction: column;[m
+[31m-  align-items: center;[m
+[31m-  justify-content: center;[m
+[31m-  font-size: calc(10px + 2vmin);[m
+[31m-  color: white;[m
+[31m-}[m
+[31m-[m
+[31m-.App-link {[m
+[31m-  color: #61dafb;[m
+[31m-}[m
+[31m-[m
+[31m-@keyframes App-logo-spin {[m
+[31m-  from {[m
+[31m-    transform: rotate(0deg);[m
+[31m-  }[m
+[31m-  to {[m
+[31m-    transform: rotate(360deg);[m
+[31m-  }[m
+[31m-}[m
+[1mdiff --git a/src/App.js b/src/App.js[m
+[1mdeleted file mode 100644[m
+[1mindex 3784575..0000000[m
+[1m--- a/src/App.js[m
+[1m+++ /dev/null[m
+[36m@@ -1,25 +0,0 @@[m
+[31m-import logo from './logo.svg';[m
+[31m-import './App.css';[m
+[31m-[m
+[31m-function App() {[m
+[31m-  return ([m
+[31m-    <div className="App">[m
+[31m-      <header className="App-header">[m
+[31m-        <img src={logo} className="App-logo" alt="logo" />[m
+[31m-        <p>[m
+[31m-          Edit <code>src/App.js</code> and save to reload.[m
+[31m-        </p>[m
+[31m-        <a[m
+[31m-          className="App-link"[m
+[31m-          href="https://reactjs.org"[m
+[31m-          target="_blank"[m
+[31m-          rel="noopener noreferrer"[m
+[31m-        >[m
+[31m-          Learn React[m
+[31m-        </a>[m
+[31m-      </header>[m
+[31m-    </div>[m
+[31m-  );[m
+[31m-}[m
+[31m-[m
+[31m-export default App;[m
+[1mdiff --git a/src/App.test.js b/src/App.test.js[m
+[1mdeleted file mode 100644[m
+[1mindex 1f03afe..0000000[m
+[1m--- a/src/App.test.js[m
+[1m+++ /dev/null[m
+[36m@@ -1,8 +0,0 @@[m
+[31m-import { render, screen } from '@testing-library/react';[m
+[31m-import App from './App';[m
+[31m-[m
+[31m-test('renders learn react link', () => {[m
+[31m-  render(<App />);[m
+[31m-  const linkElement = screen.getByText(/learn react/i);[m
+[31m-  expect(linkElement).toBeInTheDocument();[m
+[31m-});[m
+[1mdiff --git a/src/index.css b/src/index.css[m
+[1mindex ec2585e..faa7926 100644[m
+[1m--- a/src/index.css[m
+[1m+++ b/src/index.css[m
+[36m@@ -1,13 +1,127 @@[m
+[32m+[m[32m@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");[m
+[32m+[m
+[32m+[m[32m* {[m
+[32m+[m[32m    margin: 0;[m
+[32m+[m[32m    padding: 0;[m
+[32m+[m[32m    border: 0;[m
+[32m+[m[32m    outline: 0;[m
+[32m+[m[32m    box-sizing: border-box;[m
+[32m+[m[32m    list-style: none;[m
+[32m+[m[32m    text-decoration: none;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m:root {[m
+[32m+[m[32m    --color-bg: #1f1f38;[m
+[32m+[m[32m    --color-bg-variant: #2c2c6c;[m
+[32m+[m[32m    --color-primary: #4db5ff;[m
+[32m+[m[32m    --color-primary-variant: rgba(77, 181, 255, 0.4);[m
+[32m+[m[32m    --color-white: #fff;[m
+[32m+[m[32m    --color-light: rgba(255, 255, 255, 0.6);[m
+[32m+[m
+[32m+[m[32m    --transition: all 400ms ease;[m
+[32m+[m
+[32m+[m[32m    --container-width-lg: 75%;[m
+[32m+[m[32m    --container-width-md: 86%;[m
+[32m+[m[32m    --container-width-sm: 90%;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32mhtml {[m
+[32m+[m[32m    scroll-behavior: smooth;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m::-webkit-scrollbar {[m
+[32m+[m[32m    display: none;[m
+[32m+[m[32m}[m
+[32m+[m
+ body {[m
+[31m-  margin: 0;[m
+[31m-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',[m
+[31m-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',[m
+[31m-    sans-serif;[m
+[31m-  -webkit-font-smoothing: antialiased;[m
+[31m-  -moz-osx-font-smoothing: grayscale;[m
+[32m+[m[32m    font-family: "Poppins", sans-serif;[m
+[32m+[m[32m    background: var(--color-bg);[m
+[32m+[m[32m    color: var(--color-white);[m
+[32m+[m[32m    line-height: 1.7;[m
+[32m+[m[32m    background-image: url(../src/assets/bg-texture.png);[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.container {[m
+[32m+[m[32m    width: var(--container-width-lg);[m
+[32m+[m[32m    margin: 0 auto;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32mh1,[m
+[32m+[m[32mh2,[m
+[32m+[m[32mh3,[m
+[32m+[m[32mh4,[m
+[32m+[m[32mh5 {[m
+[32m+[m[32m    font-weight: 500;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32mh1 {[m
+[32m+[m[32m    font-size: 2.5rem;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32msection {[m
+[32m+[m[32m    margin-top: 8rem;[m
+[32m+[m[32m    height: 100vh;[m
+ }[m
+ [m
+[31m-code {[m
+[31m-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',[m
+[31m-    monospace;[m
+[32m+[m[32msection > h2,[m
+[32m+[m[32msection > h5 {[m
+[32m+[m[32m    text-align: center;[m
+[32m+[m[32m    color: var(--color-light);[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32msection > h2 {[m
+[32m+[m[32m    color: var(--color-primary);[m
+[32m+[m[32m    margin-bottom: 3rem;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.text-light {[m
+[32m+[m[32m    color: var(--color-light);[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32ma {[m
+[32m+[m[32m    color: var(--color-primary);[m
+[32m+[m[32m    transition: var(--transition);[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32ma:hover {[m
+[32m+[m[32m    color: var(--color-white);[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.btn {[m
+[32m+[m[32m    width: max-content;[m
+[32m+[m[32m    display: inline-block;[m
+[32m+[m[32m    color: var(--primary-color);[m
+[32m+[m[32m    padding: 0.75rem 1.2rem;[m
+[32m+[m[32m    border-radius: 0.4rem;[m
+[32m+[m[32m    cursor: pointer;[m
+[32m+[m[32m    border: 1px solid var(--color-primary);[m
+[32m+[m[32m    transition: var(--transition);[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.btn:hover {[m
+[32m+[m[32m    background: var(--color-white);[m
+[32m+[m[32m    color: var(--color-bg);[m
+[32m+[m[32m    border-color: transparent;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.btn-primary {[m
+[32m+[m[32m    background: var(--color-primary);[m
+[32m+[m[32m    color: var(--color-bg);[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32mimg {[m
+[32m+[m[32m    display: block;[m
+[32m+[m[32m    width: 100%;[m
+[32m+[m[32m    object-fit: cover;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m/* ================ MEDIA QUERIES (MEDIUM DEVICES) =================*/[m
+[32m+[m[32m@media screen and (max-width: 1024px) {[m
+[32m+[m[32m    .container {[m
+[32m+[m[32m        width: var(--container-width-md);[m
+[32m+[m[32m    }[m
+[32m+[m
+[32m+[m[32m    section > h2 {[m
+[32m+[m[32m        margin-bottom: 2rem;[m
+[32m+[m[32m    }[m
+ }[m
+[1mdiff --git a/src/index.js b/src/index.js[m
+[1mindex ef2edf8..44d1584 100644[m
+[1m--- a/src/index.js[m
+[1m+++ b/src/index.js[m
+[36m@@ -1,17 +1,5 @@[m
+[31m-import React from 'react';[m
+[31m-import ReactDOM from 'react-dom';[m
+[31m-import './index.css';[m
+[31m-import App from './App';[m
+[31m-import reportWebVitals from './reportWebVitals';[m
+[32m+[m[32mimport ReactDOM from "react-dom";[m
+[32m+[m[32mimport App from "./App";[m
+ [m
+[31m-ReactDOM.render([m
+[31m-  <React.StrictMode>[m
+[31m-    <App />[m
+[31m-  </React.StrictMode>,[m
+[31m-  document.getElementById('root')[m
+[31m-);[m
+[31m-[m
+[31m-// If you want to start measuring performance in your app, pass a function[m
+[31m-// to log results (for example: reportWebVitals(console.log))[m
+[31m-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals[m
+[31m-reportWebVitals();[m
+[32m+[m[32mimport "./index.css";[m
+[32m+[m[32mReactDOM.render(<App />, document.querySelector("#root"));[m
+[1mdiff --git a/src/logo.svg b/src/logo.svg[m
+[1mdeleted file mode 100644[m
+[1mindex 9dfc1c0..0000000[m
+[1m--- a/src/logo.svg[m
+[1m+++ /dev/null[m
+[36m@@ -1 +0,0 @@[m
+[31m-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 841.9 595.3"><g fill="#61DAFB"><path d="M666.3 296.5c0-32.5-40.7-63.3-103.1-82.4 14.4-63.6 8-114.2-20.2-130.4-6.5-3.8-14.1-5.6-22.4-5.6v22.3c4.6 0 8.3.9 11.4 2.6 13.6 7.8 19.5 37.5 14.9 75.7-1.1 9.4-2.9 19.3-5.1 29.4-19.6-4.8-41-8.5-63.5-10.9-13.5-18.5-27.5-35.3-41.6-50 32.6-30.3 63.2-46.9 84-46.9V78c-27.5 0-63.5 19.6-99.9 53.6-36.4-33.8-72.4-53.2-99.9-53.2v22.3c20.7 0 51.4 16.5 84 46.6-14 14.7-28 31.4-41.3 49.9-22.6 2.4-44 6.1-63.6 11-2.3-10-4-19.7-5.2-29-4.7-38.2 1.1-67.9 14.6-75.8 3-1.8 6.9-2.6 11.5-2.6V78.5c-8.4 0-16 1.8-22.6 5.6-28.1 16.2-34.4 66.7-19.9 130.1-62.2 19.2-102.7 49.9-102.7 82.3 0 32.5 40.7 63.3 103.1 82.4-14.4 63.6-8 114.2 20.2 130.4 6.5 3.8 14.1 5.6 22.5 5.6 27.5 0 63.5-19.6 99.9-53.6 36.4 33.8 72.4 53.2 99.9 53.2 8.4 0 16-1.8 22.6-5.6 28.1-16.2 34.4-66.7 19.9-130.1 62-19.1 102.5-49.9 102.5-82.3zm-130.2-66.7c-3.7 12.9-8.3 26.2-13.5 39.5-4.1-8-8.4-16-13.1-24-4.6-8-9.5-15.8-14.4-23.4 14.2 2.1 27.9 4.7 41 7.9zm
