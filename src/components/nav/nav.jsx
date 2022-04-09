@@ -8,7 +8,7 @@ import { BiMessageSquareDetail } from "react-icons/bi";
 import { useState } from "react";
 
 const Nav = () => {
-    const [activeNav, setActiveNav] = useState("#about");
+    const [activeNav, setActiveNav] = useState("#");
     return (
         <nav>
             <a
@@ -36,9 +36,9 @@ const Nav = () => {
                 <BiBook />{" "}
             </a>
             <a
-                href="#services"
-                onClick={() => setActiveNav("#services")}
-                className={activeNav === "#services" ? "active" : ""}
+                href="#portfolio"
+                onClick={() => setActiveNav("#portfolio")}
+                className={activeNav === "#portfolio" ? "active" : ""}
             >
                 {" "}
                 <RiServiceLine />{" "}
