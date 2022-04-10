@@ -4,19 +4,20 @@ import { FaGithub } from "react-icons/fa";
 import { FiDribbble } from "react-icons/fi";
 
 const headerSocials = () => {
-    // TODO: install react incons form react icon
-
     return (
         <div className="header__socials">
-            <a href="https://linkedin.com" target="_blank">
+            <a
+                href="https://www.linkedin.com/in/abdelghani-ennoukra-946576180/"
+                target="_blank"
+            >
                 <BsLinkedin />
             </a>
-            <a href="https://linkedin.com" target="_blank">
+            <a href="https://github.com/ennoukra" target="_blank">
                 <FaGithub />
             </a>
-            <a href="https://linkedin.com" target="_blank">
+            {/* <a href="https://linkedin.com" target="_blank">
                 <FiDribbble />
-            </a>
+            </a> */}
         </div>
     );
 };

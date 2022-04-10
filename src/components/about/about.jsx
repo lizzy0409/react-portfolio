@@ -38,11 +38,9 @@ const about = () => {
                         </article>
                     </div>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Molestias praesentium ipsam tempore ex voluptate ratione
-                        facilis, ullam est, eos fugiat cupiditate optio
-                        voluptates voluptatibus natus mollitia eveniet dolorum?
-                        Beatae, accusamus.
+                        I'm an engineering student, I'm passionate about new
+                        technology. I love coding and my overall goal is to make
+                        creative applications or websites.
                     </p>
                     <a href="#contact" className="btn btn-primary">
                         Let's Talk
