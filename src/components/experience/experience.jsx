@@ -29,21 +29,21 @@ const experience = () => {
                             <BsPatchCheckFill className="experience__details-icon" />
                             <div>
                                 <h4>JAVASCRIPT</h4>
-                                <small>Experienced</small>
+                                <small>Intermediate</small>
                             </div>
                         </article>
                         <article className="experience__details">
                             <BsPatchCheckFill className="experience__details-icon" />
                             <div>
                                 <h4>Bootstrap</h4>
-                                <small>Experienced</small>
+                                <small>Intermediate</small>
                             </div>
                         </article>
                         <article className="experience__details">
                             <BsPatchCheckFill className="experience__details-icon" />
                             <div>
                                 <h4>React</h4>
-                                <small>Experienced</small>
+                                <small>Intermediate</small>
                             </div>
                         </article>
                     </div>
@@ -54,8 +54,8 @@ const experience = () => {
                         <article className="experience__details">
                             <BsPatchCheckFill className="experience__details-icon" />
                             <div>
-                                <h4>Node JS</h4>
-                                <small>Experienced</small>
+                                <h4>JAVA EE</h4>
+                                <small>Intermediate</small>
                             </div>
                         </article>
                         <article className="experience__details">
@@ -68,22 +68,22 @@ const experience = () => {
                         <article className="experience__details">
                             <BsPatchCheckFill className="experience__details-icon" />
                             <div>
-                                <h4>Java</h4>
-                                <small>Experienced</small>
-                            </div>
-                        </article>
-                        <article className="experience__details">
-                            <BsPatchCheckFill className="experience__details-icon" />
-                            <div>
-                                <h4>python</h4>
-                                <small>Experienced</small>
-                            </div>
-                        </article>
-                        <article className="experience__details">
-                            <BsPatchCheckFill className="experience__details-icon" />
-                            <div>
                                 <h4>PHP</h4>
-                                <small>Experienced</small>
+                                <small>Intermediate</small>
+                            </div>
+                        </article>
+                        <article className="experience__details">
+                            <BsPatchCheckFill className="experience__details-icon" />
+                            <div>
+                                <h4>SPRING BOOT</h4>
+                                <small>Intermediate</small>
+                            </div>
+                        </article>
+                        <article className="experience__details">
+                            <BsPatchCheckFill className="experience__details-icon" />
+                            <div>
+                                <h4>LARAVEL</h4>
+                                <small>Intermediate</small>
                             </div>
                         </article>
                     </div>

@@ -38,9 +38,15 @@ const about = () => {
                         </article>
                     </div>
                     <p>
-                        I'm an engineering student, I'm passionate about new
-                        technology. I love coding and my overall goal is to make
-                        creative applications or websites.
+                        Hello, I am a software engineering student, in my fourth
+                        year at the national school of applied science al
+                        hocaima (ENSAH). I am a driven individual with the
+                        ability to adapt to any situation and proven potantial
+                        to grow self and others,
+                        <br />
+                        I'm passionate about new technology. I love coding and
+                        my overall goal is to make creative applications or
+                        websites.
                     </p>
                     <a href="#contact" className="btn btn-primary">
                         Let's Talk
