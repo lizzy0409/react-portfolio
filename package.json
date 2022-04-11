@@ -6,6 +6,7 @@
         "@testing-library/jest-dom": "^5.16.3",
         "@testing-library/react": "^12.1.4",
         "@testing-library/user-event": "^13.5.0",
+        "emailjs-com": "^3.2.0",
         "react": "^17.0.2",
         "react-dom": "^17.0.2",
         "react-icons": "^4.3.1",
@@ -14,6 +15,8 @@
     },
     "scripts": {
         "start": "react-scripts start",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build",
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject"
@@ -39,13 +42,5 @@
     "devDependencies": {
         "gh-pages": "^3.2.3"
     },
-    "homepage": "http://ennoukra.github.io/react-portfolio",
-    "scripts": {
-        "start": "react-scripts start",
-        "predeploy": "npm run build",
-        "deploy": "gh-pages -d build",
-        "build": "react-scripts build",
-        "test": "react-scripts test",
-        "eject": "react-scripts eject"
-    }
+    "homepage": "http://ennoukra.github.io/react-portfolio"
 }
