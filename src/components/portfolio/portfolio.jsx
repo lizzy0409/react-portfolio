@@ -12,45 +12,45 @@ const data = [
     {
         id: 1,
         image: IMG1,
-        title: "Crypto Currency Dashbord & Financial Visualization",
+        title: "Design and development of a web application dedicated to absence management",
         github: "https://github.com/ennoukra",
         dimo: "hello world",
     },
     {
         id: 2,
         image: IMG2,
-        title: "Crypto Currency Dashbord & Financial Visualization",
+        title: "Creating a Notes Management Web Application",
         github: "https://github.com/ennoukra",
         dimo: "hello world",
     },
     {
         id: 3,
         image: IMG3,
-        title: "Crypto Currency Dashbord & Financial Visualization",
+        title: "Student Management Desktop Application",
         github: "https://github.com/ennoukra",
         dimo: "hello world",
     },
     {
         id: 4,
         image: IMG4,
-        title: "Crypto Currency Dashbord & Financial Visualization",
+        title: "Medical Prescription Management Web Application",
         github: "https://github.com/ennoukra",
         dimo: "hello world",
     },
     {
         id: 5,
         image: IMG5,
-        title: "Crypto Currency Dashbord & Financial Visualization",
+        title: "TodoList App",
         github: "https://github.com/ennoukra",
         dimo: "hello world",
     },
-    {
-        id: 6,
-        image: IMG6,
-        title: "Crypto Currency Dashbord & Financial Visualization",
-        github: "https://github.com/ennoukra",
-        dimo: "hello world",
-    },
+    // {
+    //     id: 6,
+    //     image: IMG6,
+    //     title: "Crypto Currency Dashbord & Financial Visualization",
+    //     github: "https://github.com/ennoukra",
+    //     dimo: "hello world",
+    // },
 ];
 const portfolio = () => {
     return (
