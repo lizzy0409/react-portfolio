@@ -18,7 +18,7 @@ const about = () => {
                     </div>
                 </div>
                 <div className="about__content">
-                    <div className="about__cards">
+                    {/* <div className="about__cards">
                         <article className="about__card">
                             <FaAward className="about__icon" />
                             <h5>Experience</h5>
@@ -36,17 +36,13 @@ const about = () => {
                             <h5>Experience</h5>
                             <small>3+ Years Working</small>
                         </article>
-                    </div>
+                    </div> */}
                     <p>
-                        Hello, I am a software engineering student, in my fourth
-                        year at the national school of applied science al
-                        hocaima (ENSAH). I am a driven individual with the
-                        ability to adapt to any situation and proven potantial
-                        to grow self and others,
-                        <br />
-                        I'm passionate about new technology. I love coding and
-                        my overall goal is to make creative applications or
-                        websites.
+                    Experienced web Developer with 3 years of experience in web Development. 
+                    Proficient in a wide range of programming languages and frameworks including Javascript, 
+                    Typescript, HTML, CSS, React, Node JS, Angular, SQL, and Git/Github. Analytical thinker 
+                    and problem-solver with strong problem-solving skills. Self-motivated and dedicated web developer. 
+                    Passionate about learning and constantly improving skills.
                     </p>
                     <a href="#contact" className="btn btn-primary">
                         Let's Talk

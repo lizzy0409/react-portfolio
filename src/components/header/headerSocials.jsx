@@ -7,12 +7,12 @@ const headerSocials = () => {
     return (
         <div className="header__socials">
             <a
-                href="https://www.linkedin.com/in/abdelghani-ennoukra-946576180/"
+                href="#"
                 target="_blank"
             >
                 <BsLinkedin />
             </a>
-            <a href="https://github.com/ennoukra" target="_blank">
+            <a href="#" target="_blank">
                 <FaGithub />
             </a>
             {/* <a href="https://linkedin.com" target="_blank">

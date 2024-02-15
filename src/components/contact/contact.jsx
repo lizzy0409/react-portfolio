@@ -39,19 +39,19 @@ const Contact = () => {
                     <article className="contact__option">
                         <MdOutlineEmail className="contact__option-icon" />
                         <h4>Email</h4>
-                        <h5>ghaniennoukra@gmail.com</h5>
+                        <h5>lizzy040925@gmail.com</h5>
                         <a
-                            href="mailto:ghaniennoukra@gmail.com"
+                            href="mailto:lizzy040925@gmail.com"
                             target="_blank"
                         >
                             Send a Message
                         </a>
                     </article>
-                    <article className="contact__option">
+                    {/* <article className="contact__option">
                         <RiMessengerLine className="contact__option-icon" />
                         <h4>Messenger</h4>
-                        <h5>abdo ennoukra</h5>
-                        <a href="https://m.me/abdo.ennoukra" target="_blank">
+                        <h5>Haruki Nakamura</h5>
+                        <a href="https://m.me/abdo.haruki" target="_blank">
                             Send a Message
                         </a>
                     </article>
@@ -65,7 +65,7 @@ const Contact = () => {
                         >
                             Send a Message
                         </a>
-                    </article>
+                    </article> */}
                 </div>
 
                 {/* end of the contact options */}

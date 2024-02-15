@@ -7,7 +7,7 @@ const footer = () => {
     return (
         <footer>
             <a href="#" className="footer__logo">
-                Ennoukra
+                Haruki
             </a>
             <ul className="permalinks">
                 <li>
@@ -38,7 +38,7 @@ const footer = () => {
                 </a>
             </div>
             <div className="footer__copyright">
-                <small>&copy; ENNOUKRA ABDELGHANI. All right reserved.</small>
+                <small>&copy; Haruki Nakamura. All right reserved.</small>
             </div>
         </footer>
     );

@@ -46,6 +46,27 @@ const experience = () => {
                                 <small>Intermediate</small>
                             </div>
                         </article>
+                        <article className="experience__details">
+                            <BsPatchCheckFill className="experience__details-icon" />
+                            <div>
+                                <h4>Webflow</h4>
+                                <small>Intermediate</small>
+                            </div>
+                        </article>
+                        <article className="experience__details">
+                            <BsPatchCheckFill className="experience__details-icon" />
+                            <div>
+                                <h4>Typescript</h4>
+                                <small>Intermediate</small>
+                            </div>
+                        </article>
+                        <article className="experience__details">
+                            <BsPatchCheckFill className="experience__details-icon" />
+                            <div>
+                                <h4>TailwindCSS</h4>
+                                <small>Intermediate</small>
+                            </div>
+                        </article>
                     </div>
                 </div>
                 <div className="experience__backend">
@@ -54,7 +75,7 @@ const experience = () => {
                         <article className="experience__details">
                             <BsPatchCheckFill className="experience__details-icon" />
                             <div>
-                                <h4>JAVA EE</h4>
+                                <h4>Node.js</h4>
                                 <small>Intermediate</small>
                             </div>
                         </article>
@@ -75,7 +96,14 @@ const experience = () => {
                         <article className="experience__details">
                             <BsPatchCheckFill className="experience__details-icon" />
                             <div>
-                                <h4>SPRING BOOT</h4>
+                                <h4>Django</h4>
+                                <small>Intermediate</small>
+                            </div>
+                        </article>
+                        <article className="experience__details">
+                            <BsPatchCheckFill className="experience__details-icon" />
+                            <div>
+                                <h4>Phython</h4>
                                 <small>Intermediate</small>
                             </div>
                         </article>

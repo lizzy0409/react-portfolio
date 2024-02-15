@@ -12,6 +12,7 @@
 }
 
 .contact__option {
+    margin-top:5rem;
     background: var(--color-bg-variant);
     padding: 1.2rem;
     border-radius: 1.2rem;
