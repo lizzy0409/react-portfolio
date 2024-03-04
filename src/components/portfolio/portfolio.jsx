@@ -13,7 +13,7 @@ const data = [
         id: 1,
         image: IMG1,
         title: "Design and development of a web application dedicated to absence management",
-        github: "https://github.com/lizzy0409",
+        github: "https://github.com/lizzy0409/gaswizard-frontend",
         dimo: "hello world",
     },
     {
