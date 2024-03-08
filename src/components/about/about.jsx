@@ -38,7 +38,7 @@ const about = () => {
                         </article>
                     </div> */}
                     <p>
-                    Experienced web Developer with 3 years of experience in web Development. 
+                    I am experienced web Developer with 3 years of experience in web Development. 
                     Proficient in a wide range of programming languages and frameworks including Javascript, 
                     Typescript, HTML, CSS, React, Node JS, Angular, SQL, and Git/Github. Analytical thinker 
                     and problem-solver with strong problem-solving skills. Self-motivated and dedicated web developer. 
